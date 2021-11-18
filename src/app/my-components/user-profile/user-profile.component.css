@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+/* User information */
+.user-information {
+  position: fixed;
+}
+
+.user-description {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #0d0d0d;
+  padding: 5px 5px 5px 5px;
+}
+
+/* Custom posts */
+.custom-profile {
+  flex-direction: column;
+  align-content: flex-end;
+}
+/* Custom Navbar & Username */
+.custom-navbar {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #fff;
+}
+
+.custom-nav {
+  justify-content: flex-start !important;
+}
+
+.user-name {
+  margin-left: 0 !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.custom-avatar {
+  margin-right: 5px;
+}
+
+.custom-image {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.custom-description {
+  flex-direction: column;
+}
+
+.custom-row-description {
+  margin-bottom: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.custom-heart {
+  margin-right: 10px;
+}
+
+.custom-card-content {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
